@@ -1,2 +1,7 @@
-for i in range(20):
- print "test"
+from setuptools import setup
+
+setup(
+    name='iitm-workshop',
+    version='0.1',                    
+    scripts=['eea']                 
+)
